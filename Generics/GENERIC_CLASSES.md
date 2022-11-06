@@ -55,10 +55,10 @@ if (y.isNull())
 
 - Yukarıdaki kodu çalıştırdığınız zaman çıktısı aşağıdaki gibi olur:
 
-`
+```java
 null olmayan değer
 y değişkeni null
-`
+```
 
 - Gördüğünüz gibi yazdığımız sınıf güzel bir şekilde çalışmaktadır. Peki ya bu sınıfı String türünden başka türler için de kullanmak istersek? Mevcut durumda Nullable sınıfı yalnızca String değerleri kabul ediyor. Yani bu sınıfı Date türündeki değerler üzerinde kullanamayız. O halde bu sınıfın adını NullableString olarak değiştirelim ve NullableDate adında başka bir sınıf oluşturalım :
 
