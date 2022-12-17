@@ -76,7 +76,7 @@ catch (Exception e) {
 catch (NullPointerException e) {
 ...
 }
-```   
+```
 
 - Bu örnekteki gibi sıralanmış bir "catch" bloğunda en genel "Exception" sınıfı kullanıldığı için gelen her "Exception" bu blok tarafından yakalancak ve o blok çalışacaktır. Bu "NullPointerException" bloğundaki davranışın hiç çalışmamasına yani programda "NullPointerException" yakalandığı zaman uygulamanın beklendiği gibi davranmamasına neden olacaktır.
 
