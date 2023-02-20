@@ -7,7 +7,7 @@ public class Main {
         Nullable<Integer> n = new Nullable<Integer>(number);
         n.run();
 
-        System.out.println("-------------------------------------");
+        System.out.println("------------------------------------");
 
         Integer a = 1978;
         String b = "Java";
